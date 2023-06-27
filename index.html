@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assests/styles/index.css" />
+  </head>
+  <body>
+    <div class="cal">
+      <div class="heading">
+        <h1 id="heading">Calculator</h1>
+        <img
+          src="assests/images/three-dots-vertical.svg"
+          id="dropdown"
+          alt="dropdown"
+        />
+      </div>
+      <div class="display">
+        <div id="equation"></div>
+        <div id="result"></div>
+      </div>
+      <div id="line"></div>
+      <div class="keys" id="keys">
+        <button class="key show-expand">(</button>
+        <button class="key show-expand">)</button>
+        <button class="key show-expand">^</button>
+        <button class="key show-expand"></button>
+        <button class="key" id="clear">AC</button>
+        <button class="key" id="removeLastItem">
+          <img
+            src="assests/images/backspace-svgrepo-com.svg"
+            alt="backspace"
+            id="backspace"
+          />
+        </button>
+        <button class="key" id="percentage">%</button>
+        <button class="key oper">/</button>
+        <button class="key">7</button>
+        <button class="key">8</button>
+        <button class="key">9</button>
+        <button class="key oper">x</button>
+        <button class="key">4</button>
+        <button class="key">5</button>
+        <button class="key">6</button>
+        <button class="key oper">-</button>
+        <button class="key">1</button>
+        <button class="key">2</button>
+        <button class="key">3</button>
+        <button class="key oper">+</button>
+        <button class="key" id="expandKeys">
+          <img
+            src="assests/images/expand-svgrepo-com.svg"
+            alt="expand"
+            id="expand"
+          />
+        </button>
+        <button class="key">0</button>
+        <button class="key">.</button>
+        <button class="key oper" id="equal">=</button>
+      </div>
+    </div>
+    <script src="assests/js/index.js"></script>
+  </body>
+</html>
